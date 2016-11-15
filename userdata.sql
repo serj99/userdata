@@ -1,8 +1,8 @@
--- MySQL dump 10.16  Distrib 10.1.17-MariaDB, for Linux (x86_64)
+-- MySQL dump 10.16  Distrib 10.1.19-MariaDB, for Linux (x86_64)
 --
--- Host: localhost    Database: userdata
+-- Host: localhost    Database: localhost
 -- ------------------------------------------------------
--- Server version	10.1.17-MariaDB
+-- Server version	10.1.19-MariaDB
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -28,7 +28,7 @@ CREATE TABLE `bks` (
   `author` varchar(150) DEFAULT NULL,
   `date` date DEFAULT NULL,
   PRIMARY KEY (`cnt`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `bks` (
 
 LOCK TABLES `bks` WRITE;
 /*!40000 ALTER TABLE `bks` DISABLE KEYS */;
-INSERT INTO `bks` VALUES (1,'The Red and the Black','Stendhal','9999-12-31'),(2,'The Children of Captain Grant','Jules Verne','9999-12-31'),(3,'The Secret','Rhonda Byrne','9999-12-31'),(4,'Gulliver\'s Travels','Jonathan Swift','9999-12-31'),(5,'Assignment Gestapo','Sven Hassel','9999-12-31');
+INSERT INTO `bks` VALUES (1,'The Red and the Black','Stendhal','9999-12-31'),(2,'The Children of Captain Grant','Jules Verne','9999-12-31'),(3,'The Secret','Rhonda Byrne','9999-12-31'),(4,'Gulliver\'s Travels','Jonathan Swift','9999-12-31'),(5,'Assignment Gestapo','Sven Hassel','9999-12-31'),(7,'Shogun','James Clavell','9999-12-31'),(8,'Shogun (II)','James Clavell','2016-10-21'),(9,'The Good Soldier Svejk (I)','Jaroslav Hasek','2016-11-14');
 /*!40000 ALTER TABLE `bks` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -76,4 +76,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-10-05 10:33:06
+-- Dump completed on 2016-11-15 19:04:54
