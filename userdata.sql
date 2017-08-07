@@ -54,7 +54,7 @@ CREATE TABLE `mvs` (
   `release_date` varchar(150) DEFAULT NULL,
   `watched_date` date DEFAULT NULL,
   PRIMARY KEY (`cnt`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -63,7 +63,7 @@ CREATE TABLE `mvs` (
 
 LOCK TABLES `mvs` WRITE;
 /*!40000 ALTER TABLE `mvs` DISABLE KEYS */;
-INSERT INTO `mvs` VALUES (1,'Brother','July 20, 2001','9999-12-31'),(2,'Saving Private Ryan','July 24, 1998','9999-12-31'),(3,'Home Alone 2: Lost in New York','November 20, 1992','9999-12-31'),(4,'12 Years a Slave','August 30, 2013','9999-12-31'),(5,'Nerve','July 27, 2016','2017-02-19');
+INSERT INTO `mvs` VALUES (1,'Brother','July 20, 2001','9999-12-31'),(2,'Saving Private Ryan','July 24, 1998','9999-12-31'),(3,'Home Alone 2: Lost in New York','November 20, 1992','9999-12-31'),(4,'12 Years a Slave','August 30, 2013','9999-12-31'),(5,'Nerve','July 27, 2016','2017-02-19'),(6,'Beyond Outrage','October 6, 2012','2017-08-03');
 /*!40000 ALTER TABLE `mvs` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -76,4 +76,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-08-07 11:17:33
+-- Dump completed on 2017-08-07 11:50:23
